@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Física em Código</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="hero text-center d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Física em Código</h1>
+            <p class="lead mt-3">
+                Página oficial do canal. Um espaço para reunir materiais de estudo,
+                aulas, atividades e conteúdos de física com programação.
+            </p>
+            <a href="https://www.youtube.com/@F%C3%ADsicaemC%C3%B3digo" target="_blank" class="btn btn-custom mt-3">
+                Acessar YouTube
+            </a>
+        </div>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+
+            <section class="mb-5">
+                <h2 class="section-title">Sobre o projeto</h2>
+                <p>
+                    O <strong>Física em Código</strong> é um projeto voltado para o ensino
+                    de física com apoio da programação, materiais didáticos e atividades.
+                    O site ainda está em construção, mas em breve você poderá acessar
+                    conteúdos organizados de forma simples e prática.
+                </p>
+            </section>
+
+            <section class="mb-5">
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                    <h2 class="section-title mb-0">Material de Estudos</h2>
+                    <button id="toggle-materiais" class="btn btn-custom-secondary">
+                        Mostrar materiais
+                    </button>
+                </div>
+
+                <div id="container-materiais" class="d-none">
+                    <div id="lista-materiais" class="row g-4">
+                        <!-- Os cards serão inseridos aqui pelo JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-5">
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                    <h2 class="section-title mb-0">Atividades</h2>
+                    <button id="toggle-atividades" class="btn btn-custom-secondary">
+                        Mostrar atividades
+                    </button>
+                </div>
+
+                <div id="container-atividades" class="d-none">
+                    <div id="lista-atividades" class="row g-4">
+                        <!-- Os cards serão inseridos aqui pelo JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                    <h2 class="section-title mb-0">Gabaritos</h2>
+                    <button id="toggle-gabaritos" class="btn btn-custom-secondary">
+                        Mostrar gabaritos
+                    </button>
+                </div>
+
+                <div id="container-gabaritos" class="d-none">
+                    <div id="lista-gabaritos" class="row g-4">
+                        <!-- Os cards serão inseridos aqui pelo JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-4 footer-custom">
+        <div class="container">
+            <p class="mb-2">
+                Visitas no site: <span id="contador-visitas">Carregando...</span>
+            </p>
+            <p class="mb-2">Este material está licenciado sob <strong>CC BY 4.0</strong>. Você pode utilizar e adaptar o conteúdo, desde que cite a autoria.</p>
+            <p class="mb-0">© 2026 - Física em Código | Site em construção</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="visitas.js"></script>
+</body>
+</html>
