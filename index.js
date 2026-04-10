@@ -12,7 +12,7 @@ const materiais = [
     {
         titulo: "Aula 02 - Função print()",
         descricao: "Teoria sobre a Função print().",
-        arquivo: "materiais/apoio/apoio02.pdf"
+        arquivo: "materiais/apoio/Apoio02.pdf"
     },
     {
         titulo: "Aula 03 - Função input()",
